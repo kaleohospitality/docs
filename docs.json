@@ -43,6 +43,10 @@
               "food-beverage/service-standards",
               "food-beverage/allergen-policy"
             ]
+          },
+          {
+            "group": "Changelog",
+            "pages": ["changelog/overview"]
           }
         ]
       }

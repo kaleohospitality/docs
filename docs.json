@@ -9,39 +9,85 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Knowledge Base",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": ["introduction"]
-          },
-          {
-            "group": "Operations & Procedures",
-            "pages": [
-              "operations/overview",
-              "operations/opening-procedures",
-              "operations/closing-procedures",
-              "operations/daily-checklists"
+            "tab": "Knowledge Base",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": ["introduction"]
+              },
+              {
+                "group": "Operations & Procedures",
+                "pages": [
+                  "operations/overview",
+                  "operations/opening-procedures",
+                  "operations/closing-procedures",
+                  "operations/daily-checklists"
+                ]
+              },
+              {
+                "group": "HR & Onboarding",
+                "pages": [
+                  "hr-onboarding/overview",
+                  "hr-onboarding/new-hire-checklist",
+                  "hr-onboarding/employee-handbook",
+                  "hr-onboarding/training-schedule"
+                ]
+              },
+              {
+                "group": "Food & Beverage",
+                "pages": [
+                  "food-beverage/overview",
+                  "food-beverage/menu-standards",
+                  "food-beverage/service-standards",
+                  "food-beverage/allergen-policy"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "tabs": [
           {
-            "group": "HR & Onboarding",
-            "pages": [
-              "hr-onboarding/overview",
-              "hr-onboarding/new-hire-checklist",
-              "hr-onboarding/employee-handbook",
-              "hr-onboarding/training-schedule"
-            ]
-          },
-          {
-            "group": "Food & Beverage",
-            "pages": [
-              "food-beverage/overview",
-              "food-beverage/menu-standards",
-              "food-beverage/service-standards",
-              "food-beverage/allergen-policy"
+            "tab": "Base de conocimientos",
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "pages": ["es/introduction"]
+              },
+              {
+                "group": "Operaciones y procedimientos",
+                "pages": [
+                  "es/operations/overview",
+                  "es/operations/opening-procedures",
+                  "es/operations/closing-procedures",
+                  "es/operations/daily-checklists"
+                ]
+              },
+              {
+                "group": "Recursos humanos e incorporación",
+                "pages": [
+                  "es/hr-onboarding/overview",
+                  "es/hr-onboarding/new-hire-checklist",
+                  "es/hr-onboarding/employee-handbook",
+                  "es/hr-onboarding/training-schedule"
+                ]
+              },
+              {
+                "group": "Alimentos y bebidas",
+                "pages": [
+                  "es/food-beverage/overview",
+                  "es/food-beverage/menu-standards",
+                  "es/food-beverage/service-standards",
+                  "es/food-beverage/allergen-policy"
+                ]
+              }
             ]
           }
         ]

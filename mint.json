@@ -1,0 +1,54 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Kaleo Hospitality",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#1a6b5a",
+    "light": "#2e9b82",
+    "dark": "#134d41"
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:chad.ducote@kaleohospitality.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Operations & Procedures",
+      "pages": [
+        "operations/overview",
+        "operations/opening-procedures",
+        "operations/closing-procedures",
+        "operations/daily-checklists"
+      ]
+    },
+    {
+      "group": "HR & Onboarding",
+      "pages": [
+        "hr-onboarding/overview",
+        "hr-onboarding/new-hire-checklist",
+        "hr-onboarding/employee-handbook",
+        "hr-onboarding/training-schedule"
+      ]
+    },
+    {
+      "group": "Food & Beverage",
+      "pages": [
+        "food-beverage/overview",
+        "food-beverage/menu-standards",
+        "food-beverage/service-standards",
+        "food-beverage/allergen-policy"
+      ]
+    }
+  ],
+  "footerSocials": {}
+}
